@@ -31,6 +31,6 @@ items = items.filter(i => i.id != req.params.id); res.json({ message: "Item dele
 });
 
 // Start the server 
-const PORT = 5000;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
